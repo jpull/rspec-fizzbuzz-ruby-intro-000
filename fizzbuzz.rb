@@ -1,6 +1,6 @@
 def fizzbuzz(number)
   #number = (number/3)
-  numint = number.int
+  numint = number
   if (number == numint) && (number == number )
     puts "FizzBuzz"
   elsif number/3 == number/3
