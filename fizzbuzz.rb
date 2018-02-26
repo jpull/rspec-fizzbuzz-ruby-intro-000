@@ -3,7 +3,7 @@ def fizzbuzz(number)
   numint = number / 3
   puts numb
   puts numint
-  if (number == numint) && (number == number )
+  if (number / 3 == number / 3.0) && (number == number )
     puts "FizzBuzz"
   elsif number/3 == number/3
     puts "Fizz"
