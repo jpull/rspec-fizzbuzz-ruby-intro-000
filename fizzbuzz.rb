@@ -1,6 +1,8 @@
 def fizzbuzz(number)
   numb = number / 3.0
-  numint = number
+  numint = number / 3
+  puts numb
+  puts numint
   if (number == numint) && (number == number )
     puts "FizzBuzz"
   elsif number/3 == number/3
@@ -12,6 +14,4 @@ def fizzbuzz(number)
 end
 
 puts "Enter Number"
-number = gets.chomp
-puts number
-fizzbuzz(number)
+fizzbuzz(3)
