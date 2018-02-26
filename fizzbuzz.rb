@@ -14,4 +14,4 @@ def fizzbuzz(number)
 end
 
 puts "Enter Number"
-fizzbuzz(3)
+fizzbuzz(5)
